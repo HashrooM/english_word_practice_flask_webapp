@@ -1,0 +1,5 @@
+[user]
+	email = dogscox.tech@gmail.com
+	name = DogsCox
+[credential]
+	helper = "!f() { /home/dogscox/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/node /tmp/vscode-remote-containers-d80441f7bc5a7a99a9602e02f3cb9e5d2c666736.js $*; }; f"

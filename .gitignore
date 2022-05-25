@@ -1,0 +1,8 @@
+.cache*
+.gnupg*
+.ssh*
+.vscode*
+*__pycache__*
+.python*
+.bash_history
+.viminfo

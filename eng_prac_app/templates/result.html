@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+</head>
+<body>
+    <h2>回答</h2>
+    {% for c, a in ans %}
+    <p>{{ c['ja']  }}【{{ c['type'] }}】の答えは... <strong>{{ c['word'] }}</strong> あなたの答えは ... {{ a }}</p>
+    {% endfor %}
+    <br>
+    <p>あなたの正解数は ... <strong>{{ correct }} / 3</strong> でした。</p>
+    <br>
+    <a href="/eng_prac">もう一度やる</a>
+    <br>
+    <a href="/">メニューへ</a>
+    <br>
+    <a href="/logout">ログアウト</a>
+</body>
+</html>
